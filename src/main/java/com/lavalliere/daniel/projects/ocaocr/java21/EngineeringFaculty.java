@@ -2,7 +2,7 @@ package com.lavalliere.daniel.projects.ocaocr.java21;
 
 import java.util.logging.Logger;
 
-final class EngineeringFaculty extends Faculty {
+final public class EngineeringFaculty extends Faculty {
     private final Logger logger = Logger.getLogger(EngineeringFaculty.class.getName());
 
     public void engineering() {
